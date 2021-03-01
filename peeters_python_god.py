@@ -1,6 +1,3 @@
-print("welkom")
-print("Gilles ge kunt het niet")
-
 #input = open("oefen.txt")
 #letters = int(input())
 #for _ in range(letters):
