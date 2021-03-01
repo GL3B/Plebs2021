@@ -1,8 +1,11 @@
-f = open("oefen.txt")
+import sys
+
+f = int(input())
+#f = open("oefen.txt")
 lines = f.readlines()
-f.close()
-amount_lists = int(lines[0])
-print(amount_lists)
+#f.close()
+#amount_lists = int(lines[0])
+amount_lists = lines[0]
 lists = []
 cijfers = []
 
@@ -47,3 +50,13 @@ for j in range(amount_lists):
     output.writelines(str(i)+ " " + str(lijst_min[j]) + " " + str(lijst_max[j]) + "\n")
     i +=1
 output.close()
+
+def print_to_std_out(*a):
+    print(*a,file = sys.stdout)
+
+
+out = open("output.txt")
+out1 = out.readlines()
+out.close()
+print_to_std_out(out)
+#print_to_std_out("output.txt")
