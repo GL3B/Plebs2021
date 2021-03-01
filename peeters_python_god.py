@@ -1,3 +1,5 @@
+
+
 #input = open("oefen.txt")
 #letters = int(input())
 #for _ in range(letters):
@@ -17,8 +19,9 @@
 f = open("oefen.txt")
 lines = f.readlines()
 f.close()
+
 for line in lines:
     if len(line.strip()) != 0:
         columns = line.split(" ")
-cijfers = lines
-print(cijfers)
+
+
