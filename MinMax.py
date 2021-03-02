@@ -29,5 +29,5 @@ output.close()
 out = open("output.txt")
 out1 = out.readlines()
 out.close()
-
+print(out1)
 sys.stdout.writelines(out1)
