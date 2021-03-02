@@ -10,6 +10,7 @@ amount_lists = lines[0]
 lists = []
 cijfers = []
 
+
 """ Reads the input txt file and separates all values in a list """
 for line in lines:
     if len(line.strip()) != 0:
