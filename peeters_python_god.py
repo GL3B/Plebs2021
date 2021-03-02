@@ -1,8 +1,9 @@
 import sys
 
 f = int(input())
+print(f)
 #f = open("oefen.txt")
-lines = f.readlines()
+#lines = f.readlines()
 #f.close()
 #amount_lists = int(lines[0])
 amount_lists = lines[0]
