@@ -13,7 +13,6 @@ i = 1
 lijst_max = []
 lijst_min = []
 
-
 for individual_lists in lists:
     minimum = min(individual_lists)
     maximum = max(individual_lists)
