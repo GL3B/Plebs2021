@@ -35,6 +35,7 @@ for test in range(1, nb_of_tests + 1):
     alfa = get_alfabetic(books)
     sorted_shelfs = get_bookshelfs_sorted(width_bookshelfs)
     if len(alfa) > 0:
+
         needed_shelfs = 1
         blijven_gaan = True
         for shelf in sorted_shelfs:
