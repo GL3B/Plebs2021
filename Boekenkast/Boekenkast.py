@@ -54,5 +54,5 @@ for test in range(1, nb_of_tests + 1):
             output.append(str(test) + " " + "ONMOGELIJK" + "\n")
     else:
         output.append(str(test) + " " + str(needed_shelfs) + "\n")
-
+print(output)
 sys.stdout.writelines(output)
